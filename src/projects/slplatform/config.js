@@ -4,7 +4,7 @@ const suites = {
 
   homepageTests: [
 
-    'nick/navtest.js'
+    'michaels/navtest.js'
 
   ]
 
