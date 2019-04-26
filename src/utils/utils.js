@@ -49,4 +49,18 @@ async function getElement(driver, by){
 
 }
 
+async function getRandomElement(driver, by){
+
+  try {
+    let randomElement = await driver.wait(until.findElements(by), 5000)
+		
+		
+  }
+  catch(error) {
+    log(error, 'error')
+  }
+  return await driver.findElement(by)
+
+}
+
 export { log, takeScreenshot, getElement }
