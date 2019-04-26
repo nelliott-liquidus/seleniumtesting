@@ -32,7 +32,7 @@ export async function start(driver) {
 		utils.log('get listing')
 
 		await driver.wait(utils.takeScreenshot(driver, 'shoplocal-start-page'), 10000)
-    await utils.takeScreenshot(driver, 'ShopLocalIframeWrapper')
+    await utils.takeScreenshot(driver, 'shopLocalPlatformFrame')
 
   }
 
